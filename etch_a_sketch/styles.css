@@ -1,28 +1,48 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
 :root {
     --grid-cols: 1;
     --grid-rows: 1;
-    --background: violet;
+
     }
     body{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 60px;
+        font-family: 'Quantico', sans-serif;
+        background-color: rgb(216, 210, 202);
     }
 
     #main{
-        background: chocolate;
+       
         width: 70%;
-        padding: 10px;
+        padding: 50px;
     }
     #container {
     display: grid;
     margin: 0 auto;
     width: 50%;
     height: 600px;
-    background: cornflowerblue;
+    background:azure;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    border: 20px solid grey;
+    }
+
+    #reset, #random{
+        background-color: aquamarine;
+        width: 80px;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    #color_btn{
+        background-color: rgb(157, 194, 202);
+        width: 125px;
+        height: auto;
+        border-radius: 6px;
     }
 

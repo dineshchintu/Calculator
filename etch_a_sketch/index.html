@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Etch-A-Sketch</h1>
     <div class="controls">
-        <label for="color_input">Select color</label>
-        <input id="color_input" type="color"><br>
+        <button id="reset">Reset</button>
+        <button class="color-choice" id="random" data-color="rainbow">Rainbow</button>
+        <button class="color-choice" id="color_btn" data-color="color">Color: <input id="color_input" type="color"><br></button>
         <label for="range_input">Select size</label>
         <input id="range_input" type="range" min="4" max="16" >
     </div>
@@ -20,6 +22,6 @@
         </div>
     </div>
 
-    <script src="js.js"></script> 
+    <script src="external.js"></script> 
 </body>
 </html>
