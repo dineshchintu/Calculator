@@ -1,4 +1,4 @@
-# webProject
+# Calculator
 Demo View of Calculator Web APP
 
 
